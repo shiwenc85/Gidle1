@@ -1,0 +1,339 @@
+html {
+    scroll-padding-top: 10vh;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --color1: #000000;
+    --color2: #b9c9e4;
+
+}
+
+.tac {
+    text-align: justify;
+}
+
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* 頁首 */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:transparent;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    padding: 25px 6%;
+}
+
+nav h1 {
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    right: 0;
+}
+
+#head a {
+    text-decoration: none;
+
+}
+
+nav a {
+    color: azure;
+}
+
+/* 頭頁 */
+#head1 {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/head1\ 修.jpg) no-repeat center/cover fixed;
+
+
+}
+
+.body1 {
+    color: #ffffff;
+    text-shadow: 1px 5px 7px #000000;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.text1 {
+    font-size: 35px;
+}
+
+#head2 {
+    background: url(./images/紙.jpg) no-repeat center/cover;
+
+}
+
+.body2 {
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+.line {
+    width: 95%;
+    height: 30px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    margin: auto;
+}
+
+.bd {
+    display: flex;
+    padding: 20px;
+}
+
+.text2,
+.te {
+    display: flex;
+    width: 50%;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.text2 {
+    justify-content: space-around;
+}
+
+.aa {
+    text-align: center;
+}
+
+.pt1 {
+    border-radius: 15px;
+}
+
+.text02 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* .text21 {
+   
+} */
+
+#head3 {
+    background: url(./images/工作區域\ 1.png)no-repeat center/cover fixed;
+
+}
+
+.i {
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-shadow: #000 3px 5px;
+
+}
+
+/* .body3 {} */
+
+.text3 {
+    font-size: 60px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.body6 {
+    padding-top: 80px;
+}
+
+
+#musiccard {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 250px;
+}
+
+#head4 {
+    background: url(./images/工作區域\ 1.png)no-repeat center/cover fixed;
+}
+
+.swiper-slide {
+    width: 500px;
+    height: 800px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    z-index: 999;
+}
+
+.bd7 {
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px;
+}
+
+.tp {
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tpp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.song-btn-no,
+.song-btn-yes {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* 
+.endtext {
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+} */
+#head5 {
+    background: url(./images/工作區域\ 1.png)no-repeat center/cover fixed;
+}
+
+#end {
+    height: 100vh;
+    width: 100%;
+}
+
+.ee {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eee {
+    height: 55%;
+    width: 85%;
+    font-size: 45px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eeee {
+    width: 100%;
+    font-size: 55px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mess_input {
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    color:#fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+}
+.mess_btn{
+    background-color: #2678ea;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+/* .cir-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cir {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: var(--color2);
+    position: relative;
+}
+
+.cir2 {
+    width:0;
+    height: 0;
+    border-radius: 50%;
+    background-color: var(--color1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s linear;
+    z-index: 999;
+} */
